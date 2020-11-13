@@ -1310,10 +1310,10 @@ pre code {
 
     .col-md-5 {
         -webkit-box-flex: 0;
-        -webkit-flex: 0 0 41.66667%;
-        -ms-flex: 0 0 41.66667%;
-        flex: 0 0 41.66667%;
-        max-width: 41.66667%;
+        -webkit-flex: 0 0 51.66667%;
+        -ms-flex: 0 0 51.66667%;
+        flex: 0 0 51.66667%;
+        max-width: 51.66667%;
     }
 
     .col-md-6 {
@@ -9824,7 +9824,7 @@ button.bg-dark:focus {
 
 .mt-5,
 .my-5 {
-    margin-top: 3rem !important;
+    margin-top: 12rem !important;
 }
 
 .mr-5,

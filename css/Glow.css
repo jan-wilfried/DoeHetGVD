@@ -6,7 +6,7 @@ body {
 
 .block {
     position: relative;
-    width: 50%;
+    width: 800px;
     min-height: 20%;
     max-height: 100%;
     height: 500px;
@@ -19,27 +19,38 @@ body {
     position: absolute;
     left: -2px;
     top: -2px;
-    background: linear-gradient(95deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094,
+    background: linear-gradient(95deg, #a54, #ff0022, #00ff00, #ffff00, #ff0000, #fb0094,
             #0000ff, #00ff00, #ffff00, #ff0000);
     background-size: 400%;
     width: calc(100% + 4px);
     height: calc(100% + 4px);
     z-index: -1;
     opacity: 70%;
-    animation: steam 20s linear infinite;
+    animation: steam 15s linear infinite;
 }
 
 @keyframes steam {
     0% {
         background-position: 0 0;
+        opacity: 0%;
+    }
+
+    25% {
+        opacity: 100%;
     }
 
     50% {
-        background-position: 300% 0;
+        background-position: 200% 400%;
+        opacity: 0%;
+    }
+
+    75% {
+        opacity: 100%;
     }
 
     100% {
         background-position: 0 0;
+        opacity: 0%;
     }
 }
 
